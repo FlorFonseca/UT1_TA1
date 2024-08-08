@@ -1,0 +1,23 @@
+.impar {
+    color: black;
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#segundo{
+    color:blue;
+    font-size: 36px;
+}
+
+.p3{
+    color: black;
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-size: 24px;
+} 
+
+#cuarto{
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+}
