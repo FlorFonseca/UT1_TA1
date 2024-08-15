@@ -1,0 +1,41 @@
+body{
+  display:grid;/*La letra no especificaba cómo centrar la tarjeta, así que decidí usar un grid, me pareció lo mejor para asegurar que esté centrada*/
+  grid-template-columns: 1fr 300px 1fr ; /* hice la segunda columna del ancho fijo que pedía la letra*/
+  grid-template-rows: 1fr 1fr 1fr;/*tres filas así me aseguro que esté bien centrado en la página, por lo que tengo entendido con fr me aseguro que sea más responsive y que el espacio se divida bien*/
+}
+
+.tarjeta{
+  grid-area: 2/2;
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 20px;
+  position: relative;
+}
+
+#imagen{
+  width:160px;
+  height: auto;
+  position: absolute;/*inicialmente quise poner el avatar dentro de la tarjeta, pero con absolte no puedo y probando con las otras positions estas no me dejan alinear la imágen hacia el top o la izquierda*/
+  top: -80px;/*para que esté parcialmente superpuesto al borde de la tarjeta*/
+  left:-80px;
+  border-radius: 50%;
+
+}
+
+.descripcion{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*quise añadir esto como detalle*/
+}
+
+
+.buttons{
+  display:flex;
+  justify-content: center;
+}
+
+#follow{
+  background-color:blue;/*Acá también juegué un poco para cambiarle el color al botón de follow*/
+  color:white;
+}
+
+
