@@ -17,7 +17,7 @@
 
 @media (min-width: 768px) and (max-width: 1439px){/*Decidí poner estos parámetros para que el fondo no quedara blanco al achicar la ventana*/
   body{
-    background-color: green;
+    background-color: white;
   }
   div{
     display:flex;
